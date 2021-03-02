@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab 2</title>
+    <meta name="description" content="SENG 3230 Lab 2">
+    <meta name="keywords" content="wireframe, adobe xd, brookfield zoo">
+    <meta name="author" content="A. Nelson">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Image of Wireframe</h1>
+        <img src="export.png" alt="Brookfield Zoo Wireframe">
+        <h1>Usability Reccomendations</h1>
+        <p>I used Google's PageSpeed Insights and Pingdom on the Brookfield Zoo website. </p>
+        <ol>
+            <li>Reduce the use of third party code: Google says that third party code blocked
+                the main thread for 760 milliseconds.  The site could improve performance by loading this
+                code after the main site components have loaded.
+            </li>
+            <li>Another thing that could be done to improve performance would be reducing the use of URL redirects.
+                It looks like there are many instances of the browser being told to go to another location when the page is loaded.  
+                This means that nothing can be rendered until the HTML document arrives.
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
