@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    width: auto;
+}
+.container{
+    width: 900px;
+    margin:auto;
+    padding: 20px;
+}
+img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
