@@ -12,10 +12,11 @@
 </head>
 
 <body>
-    <div id="container">
-        <h1>Image of Wireframe</h1>
+    <div class="container">
+        <h1>Lab 2 - Anders Nelson</h1>
+        <h3>Image of Wireframe</h3>
         <img src="export.png" alt="Brookfield Zoo Wireframe">
-        <h1>Usability Reccomendations</h1>
+        <h3>Usability Reccomendations</h3>
         <p>I used Google's PageSpeed Insights and Pingdom on the Brookfield Zoo website. </p>
         <ol>
             <li>Reduce the use of third party code: Google says that third party code blocked
@@ -25,6 +26,14 @@
             <li>Another thing that could be done to improve performance would be reducing the use of URL redirects.
                 It looks like there are many instances of the browser being told to go to another location when the page is loaded.  
                 This means that nothing can be rendered until the HTML document arrives.
+            </li>
+        </ol>
+        <h3>Accessibility Reccomendations</h3>
+        <p>Using the WAVE accessibility tool, I identified the following accessibility improvements:</p>
+        <ol>
+            <li>Make sure that all images have an alternative text for screen readers.  8 images were identified without the alt text.</li>
+            <li>The tool also identified four empty links, which can create confusion for people using screen readers.
+                These links should be removed or fixed.
             </li>
         </ol>
     </div>
